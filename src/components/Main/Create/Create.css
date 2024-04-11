@@ -1,0 +1,140 @@
+.create {
+  position: relative;
+}
+
+.create {
+  padding: 0 0 173px;
+}
+
+.create .container {
+  max-width: 1140px;
+}
+
+.create__main {
+  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  border-radius: 26px;
+  position: relative;
+}
+
+.create__main::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(https://themesflat.co/html/assets/images/layouts/pattern.png) no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.create__main .content {
+  position: relative;
+  z-index: 1;
+  padding: 32px 30px 29px;
+}
+
+.create__main img {
+  position: absolute;
+  right: 17px;
+  top: -112px;
+  animation: animate-1 15s linear 0s infinite;
+}
+
+.create__main .content .action-btn {
+  margin-top: 30px;
+}
+
+.action-btn {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  backdrop-filter: blur(4px);
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  /* border: 1px solid rgba(218, 159, 34, 0.3); */
+}
+
+.create__main .content h4 {
+  font-size: 30px;
+  text-transform: none;
+  margin-bottom: 13px;
+}
+
+h4, .h4 {
+  font-size: 40px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Conthrax", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.create__main .content .action-btn {
+  margin-top: 30px;
+}
+
+.action-btn {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  backdrop-filter: blur(4px);
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  /* border: 1px solid rgba(218, 159, 34, 0.3); */
+}
+
+.create__main .content .action-btn span {
+  padding: 15px 44px;
+  background: linear-gradient(265.05deg, #FFCB52 -6.15%, #FF7B02 106.32%);
+}
+
+.action-btn span {
+  /* background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%); */
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.action-btn span::after {
+  background: linear-gradient(90deg, rgba(218, 159, 34, 0.33) 0px, rgba(218, 159, 34, 0.33) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+  content: "";
+  height: 200%;
+  left: -210%;
+  opacity: 0;
+  position: absolute;
+  top: -50%;
+  transition: all 0.7s ease 0s;
+  width: 200%;
+}
+
+a, button {
+  font-family: "Conthrax", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: unset;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+}

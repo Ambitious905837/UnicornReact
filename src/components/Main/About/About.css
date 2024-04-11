@@ -1,0 +1,270 @@
+.about {
+  padding: 0 0 100px;
+  position: relative;
+}
+
+.shape {
+  content: "";
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  top: -70%;
+  left: -60%;
+  z-index: -1;
+  background: radial-gradient(34.98% 34.98% at 50% 50%, #725BDA 0%, rgba(6, 19, 45, 0) 100%);
+  opacity: 0.5;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px)
+{
+  .rev {
+      flex-direction: column-reverse;
+  }
+}
+
+.row > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 1200px)
+{
+  .about .about__right {
+      padding-bottom: 70px;
+  }
+}
+
+@media only screen and (max-width: 1200px)
+{
+.about .about__right .images {
+    max-width: 540px;
+    margin: 0 auto;
+}
+}
+.about .about__right .images {
+    position: relative;
+}
+
+.about .about__right .images .img1 {
+  width: 420px;
+  height: 533px;
+  object-fit: cover;
+  border-radius: 110px;
+  margin: 60px 0 0 -4px;
+  z-index: 3;
+  position: relative;
+}
+
+.about .about__right .images::after {
+  content: "";
+  position: absolute;
+  top: 56px;
+  right: 125px;
+  z-index: 1;
+  width: 420px;
+  height: 533px;
+  background: rgba(218, 159, 34, 0.3);
+  border-radius: 110px;
+  transform: rotate(10deg);
+}
+
+@media only screen and (max-width: 1200px)
+{
+  .about .block-text {
+      padding: 80px 0;
+  }
+}
+
+.block-text .sub-heading {
+  padding: 7px 14px;
+  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+
+h6, .h6 {
+  font-size: 15px;
+}
+
+.block-text .sub-heading span {
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%), #FFFFFF;
+  /* background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%), #FFFFFF; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.block-text .heading {
+  margin-bottom: 25px;
+  text-transform: none;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+h2, .h2 {
+  font-size: 60px;
+}
+
+.mb-17 {
+  margin-bottom: 17px;
+}
+
+.action-btn {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  backdrop-filter: blur(4px);
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  /* border: 1px solid rgba(218, 159, 34, 0.3); */
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+a, button {
+  font-family: "Conthrax", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: unset;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+}
+
+.block-text .action-btn span {
+  padding: 14px 24px;
+}
+.action-btn span {
+  /* background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%); */
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.action-btn span::after {
+  background: linear-gradient(90deg, rgba(218, 159, 34, 0.33) 0px, rgba(218, 159, 34, 0.33) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0));
+  content: "";
+  height: 200%;
+  left: -210%;
+  opacity: 0;
+  position: absolute;
+  top: -50%;
+  transition: all 0.7s ease 0s;
+  width: 200%;
+}
+
+.about .about__right .images .img2, .about .about__right .images .img3, .about .about__right .images .img4, .about .about__right .images .img5 {
+  position: absolute;
+  border-radius: 20%;
+}
+
+.about .about__right .images .img3 {
+  width: 222px;
+  height: 222px;
+  object-fit: cover;
+  bottom: -93px;
+  left: -108px;
+  animation: animate-3 15s linear 0s infinite;
+}
+
+.about .about__right .images .img2, .about .about__right .images .img3, .about .about__right .images .img4, .about .about__right .images .img5 {
+  position: absolute;
+  border-radius: 20%;
+}
+
+.about .about__right .images .img4 {
+  width: 65px;
+  height: 62px;
+  object-fit: cover;
+  bottom: -89px;
+  left: 129px;
+  animation: animate-4 15s linear 0s infinite;
+}
+
+.about .about__right .images .img2, .about .about__right .images .img3, .about .about__right .images .img4, .about .about__right .images .img5 {
+  position: absolute;
+  border-radius: 20%;
+}
+
+.about .about__right .images .img5 {
+  width: 255px;
+  height: 246px;
+  object-fit: cover;
+  bottom: -162px;
+  right: 75px;
+  z-index: 4;
+  animation: animate-5 15s linear 0s infinite;
+}
+.about .about__right .images .img2, .about .about__right .images .img3, .about .about__right .images .img4, .about .about__right .images .img5 {
+  position: absolute;
+  border-radius: 20%;
+}
+
+.about .about__right .images .img2 {
+  width: 121px;
+  height: 117px;
+  object-fit: cover;
+  top: 230px;
+  left: -183px;
+  animation: animate-2 15s linear 0s infinite;
+}
+
+.about .about__right .images .img2, .about .about__right .images .img3, .about .about__right .images .img4, .about .about__right .images .img5 {
+  position: absolute;
+  border-radius: 20%;
+}
+
+@keyframes animate-4 {
+  0%, 100% {
+    transform: translateY(0vh);
+}
+
+50% {
+    transform: translateY(10vmin);
+}
+}
+
+@keyframes animate-5 {
+  0%, 100% {
+    transform: translateY(0vh) translateX(0vmin);
+}
+
+50% {
+    transform: translateY(-1.5vh) translateX(5vmin);
+}
+}

@@ -1,0 +1,476 @@
+.banner {
+  position: relative;
+  background: url(https://themesflat.co/html/assets/images/background/bg-banner.png) no-repeat;
+  background-size: cover;
+}
+
+.shape.right {
+  left: auto;
+  right: -60%;
+}
+
+.shape {
+  content: "";
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  top: -70%;
+  left: -60%;
+  z-index: -1;
+  background: radial-gradient(34.98% 34.98% at 50% 50%, #725BDA 0%, rgba(6, 19, 45, 0) 100%);
+  opacity: 0.5;
+}
+
+.container.big {
+  max-width: 1650px;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+.row > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.banner .banner__left {
+  padding: 127px 0;
+}
+
+.banner .block-text .heading {
+  margin-bottom: 40px;
+}
+.block-text .heading {
+  margin-bottom: 25px;
+  text-transform: none;
+}
+h2, .h2 {
+  font-size: 60px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Conthrax", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.banner .block-text .heading span {
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%);
+  /* background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px)
+.banner .block-text .desc {
+    padding: 0;
+}
+
+.banner .block-text .desc {
+    padding-right: 130px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.action-btn {
+  position: relative;
+  overflow: hidden;
+  font-weight: 700;
+  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  backdrop-filter: blur(4px);
+  padding: 5px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  /* border: 1px solid rgba(218, 159, 34, 0.3); */
+}
+
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+a, button {
+  font-family: "Conthrax", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: unset;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+}
+
+.banner .block-text .action-btn span {
+  padding: 18px 56px;
+}
+.block-text .action-btn span {
+  padding: 14px 24px;
+}
+.action-btn span {
+  /* background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%); */
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.banner .banner__left .pay {
+  margin-top: 130px;
+}
+
+.banner .banner__left .pay h6 {
+  text-transform: none;
+  margin-bottom: 20px;
+}
+h6, .h6 {
+  font-size: 15px;
+}
+
+.banner .banner__left .pay .list {
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner__left .pay .list p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 16px;
+}
+
+.banner .banner__left .pay .list ul {
+  display: flex;
+}
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner .banner__left .pay .list ul li {
+  margin-right: 20px;
+}
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+a, button {
+  font-family: "Conthrax", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: unset;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+}
+
+.banner .banner__left .pay .list ul li a span {
+  font-size: 33px;
+  opacity: 0.3;
+  transition: all 0.3s ease-in-out;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.icon-logo-01:before {
+  content: "\e909";
+  color: #fff;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.banner .banner__left .pay .list ul li a span {
+  font-size: 33px;
+  opacity: 0.3;
+  transition: all 0.3s ease-in-out;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.banner .banner__right {
+  padding: 83px 0;
+  position: relative;
+}
+
+.banner .banner__right .image {
+  width: 551px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: 74px;
+  box-shadow: 0px 16px 36px rgba(0, 0, 0, 0.25);
+  border-radius: 130px;
+  position: relative;
+}
+
+.banner .banner__right .image::before {
+  transform: rotate(-17deg);
+}
+.banner .banner__right .image::before, .banner .banner__right .image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(218, 159, 34, 0.3);
+  border-radius: 130px;
+}
+
+.banner .banner__right .image:after {
+  transform: rotate(-7deg);
+}
+.banner .banner__right .image::before, .banner .banner__right .image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(218, 159, 34, 0.3);
+  border-radius: 130px;
+}
+
+.banner .banner__right .price {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 168px;
+  right: 0;
+  z-index: 3;
+  animation: animate-1 15s linear 0s infinite;
+}
+
+.banner .banner__right .price .icon {
+  margin-right: 15px;
+  filter: drop-shadow(0px 15px 20px rgba(164, 128, 255, 0.5));
+}
+
+.banner .banner__right .price h5 {
+  color: #000000;
+}
+
+.banner .banner__right .price p {
+  color: #000000;
+  font-size: 14px;
+}
+
+.banner .banner__right .owner {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 206px;
+  left: 4px;
+  z-index: 3;
+  animation: animate-3 5s linear 0s infinite;
+}
+
+.banner .banner__right .owner .image {
+  margin-right: 15px;
+  min-width: 70px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.banner .banner__right .image {
+  width: 551px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: 74px;
+  box-shadow: 0px 16px 36px rgba(0, 0, 0, 0.25);
+  border-radius: 130px;
+  position: relative;
+}
+
+.banner .banner__right .image::before {
+  transform: rotate(-17deg);
+}
+
+.banner .banner__right .image::before, .banner .banner__right .image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(218, 159, 34, 0.3);
+  border-radius: 130px;
+}
+
+.banner .banner__right .image:after {
+  transform: rotate(-7deg);
+}
+.banner .banner__right .image::before, .banner .banner__right .image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(218, 159, 34, 0.3);
+  border-radius: 130px;
+}
+
+.banner .banner__right .owner h5 {
+  color: #000000;
+}
+
+.banner .banner__right .owner p {
+  color: #000000;
+  font-size: 14px;
+}
+
+.banner .banner__right .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 130px;
+  position: relative;
+  z-index: 2;
+}
+
+.banner .banner__left .pay .list {
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner__left .pay .list ul {
+  display: flex;
+}
+
+.banner .banner__left .pay .list ul li {
+  margin-right: 20px;
+}
+
+span, a {
+  text-decoration-color: initial;
+}
+a {
+  color: rgb(255, 253, 250);
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+a {
+  font-family: "Conthrax", sans-serif;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  color: #fff;
+}
+
+.banner .banner__left .pay .list ul li a span {
+  font-size: 33px;
+  opacity: 0.3;
+  transition: all 0.3s ease-in-out;
+}
+
+[class^="icon-"] {
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo-01::before {
+  color: rgb(255, 253, 250);
+}
+.icon-logo-01:before {
+  content: "";
+  color: #fff;
+}
+
+[class^="icon-"] {
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes animate-1 {
+  0%, 100% {
+    transform: translateY(0vh) translateX(0vmin);
+}
+
+50% {
+    transform: translateY(-1.5vh) translateX(5vmin);
+}
+}
+
+@keyframes animate-3 {
+  0%, 100% {
+    transform: translateY(0vh);
+}
+
+50% {
+    transform: translateY(-5vmin);
+}
+}

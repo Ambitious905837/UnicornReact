@@ -1,0 +1,248 @@
+.roadmap {
+  position: relative;
+  padding: 69px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roadmap .img-line {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  z-index: -2;
+}
+img, svg {
+  vertical-align: middle;
+}
+
+.roadmap .shape {
+  top: 0;
+}
+
+.shape {
+  content: "";
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  top: -70%;
+  left: -60%;
+  z-index: -1;
+  background: radial-gradient(34.98% 34.98% at 50% 50%, #725BDA 0%, rgba(6, 19, 45, 0) 100%);
+  opacity: 0.5;
+}
+
+.roadmap .container {
+  max-width: 1140px;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+
+.block-text .sub-heading {
+  padding: 7px 14px;
+  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  border-radius: 100px;
+  display: inline-block;
+  margin-bottom: 22px;
+}
+h6, .h6 {
+  font-size: 15px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Conthrax", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.block-text .sub-heading span {
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%), #FFFFFF;
+  /* background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%), #FFFFFF; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.block-text .heading {
+  margin-bottom: 25px;
+  text-transform: none;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+h3, .h3 {
+  font-size: 50px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Conthrax", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px)
+{
+  .roadmap-box {
+      width: 100%;
+  }
+}
+
+.splitting.animated .char {
+  -webkit-animation: fadeInUp 0.4s cubic-bezier(0.3, 0, 0.7, 1) both;
+  animation: fadeInUp 0.4s cubic-bezier(0.3, 0, 0.7, 1) both;
+  -webkit-animation-delay: calc(30ms* var(--char-index));
+  animation-delay: calc(30ms* var(--char-index));
+}
+span, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-duration="2000"], body[data-aos-duration="2000"] [data-aos] {
+  transition-duration: 2s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+  /* transition-timing-function: ease; */
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+  /* transition-duration: .4s; */
+}
+[data-aos^=fade][data-aos^=fade] {
+  /* opacity: 0; */
+  /* transition-property: opacity, transform; */
+}
+.roadmap__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 90px;
+  position: relative;
+}
+[data-aos=fade-up] {
+  transform: translate3d(0, 100px, 0);
+}
+
+.roadmap-box {
+  width: calc(50% - 30px);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 73.86%);
+  backdrop-filter: blur(4px);
+  border-radius: 16px;
+  border: 1px solid rgba(218, 159, 34, 0.3);
+  margin-right: 30px;
+  margin-left: 0;
+  padding: 37px 30px;
+  margin-bottom: 34px;
+}
+
+.roadmap-box::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 48%;
+  right: -28px;
+  width: 28px;
+  height: 1px;
+  background: #1F223E;
+}
+
+.roadmap-box .title {
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 21px;
+  letter-spacing: 0.5px;
+}
+
+.roadmap-box .title::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%);
+  border-radius: 1.2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.roadmap-box::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 43%;
+  right: -40px;
+  width: 19px;
+  height: 19px;
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%), #FFFFFF;
+  border: 4px solid #1F223E;
+  border-radius: 50%;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Conthrax", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.roadmap-box .title {
+  position: relative;
+  padding-bottom: 14px;
+  margin-bottom: 21px;
+  letter-spacing: 0.5px;
+}
+
+.roadmap-box::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 43%;
+  right: -40px;
+  width: 19px;
+  height: 19px;
+  background: linear-gradient(264.28deg, #edb61e -38.2%, #b26b28 103.12%), #FFFFFF;
+  border: 4px solid #1F223E;
+  border-radius: 50%;
+}
+.roadmap-box.right {
+  margin-left: 30px;
+  margin-right: 0;
+  transform: translateY(112px);
+}
+
+.roadmap__main::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -40px;
+  left: 50%;
+  right: 50%;
+  background: #1F223E;
+  height: 104%;
+  width: 1px;
+}
